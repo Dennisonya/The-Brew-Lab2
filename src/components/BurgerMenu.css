@@ -1,0 +1,85 @@
+/* Burger container */
+.burger-container {
+    height: 100%;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+/* Burger button */
+.burger {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 1000;
+    border: none;
+}
+
+.burger span {
+  width: 3em;
+  height: 0.4em;
+  background-color: white;
+  border-radius:0.5em;
+  transition: all 0.5s ease;
+}
+
+.burger.open{
+    background-color: transparent;
+}
+/* Animation for open state */
+.burger.open span:nth-child(1) {
+    transform: rotate(45deg) translate(0.65em, 0.40em);
+    transition: ease-out 0.5s;
+}
+
+.burger.open span:nth-child(2) {
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+}
+
+.burger.open span:nth-child(3) {
+    transform: rotate(135deg) translate(-0.65em, 0.55em);
+    transition: ease-out 0.5s;
+}
+
+/* Navigation links */
+.nav-links {
+    margin-top: 60px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    display: none;
+    flex-direction: column;
+    margin-right: 70px;
+    list-style: none;
+    text-align: right;
+}
+
+.nav-links.visible {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+
+.nav-links > a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #9c9797;
+}
+

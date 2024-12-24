@@ -1,0 +1,345 @@
+*{
+  margin: 0;
+  box-sizing:border-box ;
+}
+/* General body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+  background-color: #f9f9f9; /* Light background for contrast */
+  color: #333; /* Default text color */
+}
+
+/* Homepage container */
+.homepage {
+  margin: 0;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content:space-between;
+  font-size: 20px;
+  align-items: center;
+  /*padding: 30px 25px;*/
+  color: aliceblue;
+  top: 0;
+  margin-top: 0;
+  width: 100%;
+  z-index: 100;
+  margin-right: 35px;
+  padding-bottom: 20px;
+
+}
+
+.navbar > a{
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  gap: 15px;
+  font-size: 25px;
+  align-items: center;
+  font-weight: 800;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+
+
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+
+/* Hero section */
+.hero {
+  background-image: url(./images/Hero1.jpg);
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: normal;
+  color: aliceblue;
+}
+
+.hero-button{
+  background-color: transparent;
+  font-size: 20px;
+  width:fit-content;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family:"Poppins", serif ;
+  color: white;
+  border-style: inset;
+  border-color: aliceblue;
+  padding:15px;
+  transition: 0.5s;
+  box-shadow: 7px 5px 1px 1px black ;
+}
+
+.hero-button:hover{
+    background-color: #73766A;
+    color: aliceblue; 
+    border-color: aliceblue;
+    box-shadow: 12px 12px 2px 1px black;
+}
+.header{
+  font-family: "Dancing Script", cursive;
+  font-style: normal;
+  color: goldenrod;
+  font-size: 55px;
+}
+
+.hero-text {
+  margin-right: 130px;
+  max-width: 700px; 
+  max-height: fit-content;
+  font-size: 1.2rem;
+}
+
+.cafe-header{
+  font-size: 3rem;
+}
+
+/* About Us section */
+.About-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 25px;
+  background-color: #fff; /* White background for contrast */
+}
+.about-us-text {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  padding-right: 20px;
+  font-weight: 400;
+}
+.about-us-text-header {
+  color: #110f0f;
+}
+.about-us-image {
+  flex: 1;
+  max-width: 40%;
+  border-radius: 15px;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Product header */
+#product-header {
+  text-align: center;
+  font-size: 2rem;
+  margin: 40px 0 20px;
+  color: #333;
+}
+
+/* Product grid */
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 25px 40px;
+}
+
+.product-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  max-width: 300px;
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-details button{
+  font-size:20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #9D8A7C;
+  border:none;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 7px 5px 1px 1px black;
+}
+
+.product-details button:hover{
+box-shadow: 12px 12px 2px 1px black;
+}
+
+
+
+#product-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  object-fit: cover; 
+}
+
+.product-details {
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Section image */
+.section {
+  background-image: url(./images/Hero2.jpg);
+  height:70vh;
+  background-size: cover;
+  background-position: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.buttons{
+  align-content: center;
+  display: flex;
+  justify-content:center;
+  gap:20px;
+  padding: 50px;
+  background-color: transparent;
+  width:50vw;
+  border-radius: 10px;
+}
+.section .buttons .button{
+  background-color: #9D8A7C;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family:"Poppins", serif ;
+  color: white;
+  width: 250px;
+  border-style: inset;
+  transition: 0.5s;
+  box-shadow: 7px 5px 1px 1px black ;
+}
+
+.section .buttons .button:hover{
+  box-shadow: 12px 12px 2px 1px black;
+}
+
+/*Footer section*/
+.footer {
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+  background-color: #9D8A7C;
+  font-weight: 400;
+}
+.footer a{
+  color: white;
+}
+
+@media  (max-width: 750px) {
+
+  .navbar{
+    font-size: 25px;
+    
+  }
+  .hero-text {
+    padding: 20px;
+    max-width: 700px; 
+    max-height: fit-content;
+    font-size: 1rem;
+  }
+
+  
+  .product-container{
+    width: 60%;
+  }
+
+  .product-details button{
+    width: 100%;
+  }
+  
+  .cafe-header{
+    font-size: 2.5rem;
+  }
+  
+
+  .About-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #fff; /* White background for contrast */
+  }
+  .about-us-text {
+    flex: 1;
+    font-size: 0.8rem;
+    line-height: 1.8;
+    text-align: justify;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  .about-us-text h1 {
+    text-align: center;
+  }
+  .about-us-image {
+    flex: 1;
+    max-width: 65%;
+    border-radius: 15px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  .products {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 25px 40px;
+  }
+
+  .product-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    max-width: 400px;
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap:20px;
+    padding: 50px;
+    margin-right: 100px;
+    background-color: transparent;
+    width:50vw;
+    border-radius: 10px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    gap:8px;
+    background-color: #9D8A7C;
+    font-weight: 400;
+  }
+}

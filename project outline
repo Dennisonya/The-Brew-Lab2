@@ -1,0 +1,47 @@
+ **Café Velvet**
+Café velevet is a coffee shop i decided to create out of my own imagination .
+the point of creating this project is mainly to test my designing skills and improve it.
+**Project Description**
+Café Velvet is a modern coffee shop that offers a wide variety of specialty coffee drinks, delicious
+pastries, and a cozy atmosphere. The goal is to create a welcoming space that appeals to coffee
+lovers and those looking for a relaxing spot to unwind.
+**Pages**
+1. HomePage{
+    * Header
+    * Hero Section
+    * featured drinks
+    * customers review
+    * footer
+}
+2. MenuPage{
+    * Header
+    * Menu Section{
+        * Coffee
+        * Pastries
+        * Tea
+    }
+    * Footer
+}
+3. AboutPage{
+    * Header
+    * Hero section
+    * About Section{
+        * Our Story
+        * Our Mission
+        * Our Team
+    }
+}
+4. ContactUsPage{
+    * Header
+    * Email subsription form
+    * Business Hours
+    * Find us (map)
+}
+
+**Project Design requires**
+1. Color Palette: use of warm earthy tones like brown, beige and creams paired with accent colors like soft greens or oranges for contrast.
+
+2. Responsive Design: Ensure the site is mobile friendly, as many users might access it.
+
+3. Typography: A playful yet legible font, perhaps a script for 
+headings and a clean modern font for the body.

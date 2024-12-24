@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  box-sizing:border-box ;
+}
+.aboutus{
+    background-color: #D8CFBC;
+}
+
+.aboutus-hero{
+    background-image: url("../images/AboutUsHeroImg1.jpg");
+    background-size: cover;
+    width: 100%;
+    flex-direction: column;
+    background-position: center;
+    width:100%;
+    text-shadow: #565449;
+    gap: 100px;
+    height: 100vh;
+    display: flex;
+}
+
+.aboutus-hero-content{
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-size: 50px;
+    font-weight: 500;
+    color:white;
+}
+
+.About-info{
+    margin-top: 35px;
+    display: flex;
+    max-width:100%;
+    gap:25px;
+    align-items: center;
+    padding: 10px;
+}
+
+#About-us-info-img{
+  flex: 1;
+  width: 50%;
+  border-radius: 15px;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+#about-info-text{
+    flex: 1;
+    font-size: 15px;
+    padding: 25px;
+    color:#565449;
+}
+
+.cafe{
+    display:flex;
+    max-width: 100%;
+    align-items: center;
+    gap:25px;
+    padding: 35px 20px;
+}
+
+#cafe-img{
+  flex: 1;
+  width: 50%;
+  border-radius: 15px;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+#cafe-info{
+    font-size: 15px;
+    padding: 25px;
+    color:#565449;
+    font-weight: 100;
+}
+
+.section2{
+    background-image: url("../images/coffeebackground2.jpg");
+    height:70vh;
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.buttons{
+    align-content: center;
+    display: flex;
+    justify-content:center;
+    gap:20px;
+    padding: 50px;
+    background-color: transparent;
+    width:50vw;
+    border-radius: 10px;
+  }
+  .section2 .buttons .button{
+    background-color: #796254;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #D8CFBC;
+    cursor: pointer;
+    font-family:"Poppins", serif ;
+    color: white;
+    width: 250px;
+    border-style: inset;
+    transition: 0.5s;
+    box-shadow: 7px 5px 1px 1px black ;
+  }
+
+  .section2 .buttons .button:hover{
+    box-shadow: 12px 12px 2px 1px black;
+  }
+
+  @media (max-width:768px){
+
+    .aboutus-hero-content{
+      font-size: 35px;
+      font-weight: 700;
+  }
+
+  .About-info{
+    flex-direction: column-reverse;
+
+  }
+
+  #About-us-info-img{
+    min-width: 80%;
+    max-height: 70vh;
+  }
+
+  #about-info-text{
+    flex: 1;
+    font-size: 15px;
+    padding: 30px;
+    color:#565449;
+}
+
+#about-info-text h1{
+  flex: 1;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.cafe{
+  flex-direction: column;
+  padding: 30px;
+  font-size:15px;
+}
+
+.cafe-info h1{
+  font-size: 35px;
+}
+
+#cafe-img{
+  min-width: 80%;
+  max-height: 70vh;
+}  
+}
