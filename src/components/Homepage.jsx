@@ -17,9 +17,9 @@ export default function Homepage (){
                 <div className="hero-text">
                     <p className='header'>Welcome to </p>
                     <p className='cafe-header'>The Brew Lab</p>
-                    <p>Where science meets the soul of coffee.<br/>
-                    Our baristas are innovators, our beans are carefully selected.<br/>
-                    and every cup is a masterpiece waiting to be savored.<br/>
+                    <p className='hero-paragraph'>Where science meets the soul of coffee.
+                    Our baristas are innovators, our beans are carefully selected.
+                    and every cup is a masterpiece waiting to be savored.
                     Come in, slow down, and let us elevate your coffee journey.</p>
                     <Link to ='About'><button className='hero-button'>Learn More</button></Link>
                 </div>
@@ -29,9 +29,9 @@ export default function Homepage (){
                 <div className="about-us-text">
                 <h1 className='about-us-text-header'>About Us</h1>
                     <p>
-                    Founded in April 2017 by two young man from Yogyakarta,<br/>
-                    Couvee comes from an idea that everyone can enjoy coffee.<br/>
-                    It all started at a small rented building on Jalan Kaliurang. By 2019<br/>
+                    Founded in April 2017 by two young man from Yogyakarta,
+                    Couvee comes from an idea that everyone can enjoy coffee.
+                    It all started at a small rented building on Jalan Kaliurang. By 2019
                      Couvee has 5 branches, one of them located in Jakarta.
                     </p>
                 </div>

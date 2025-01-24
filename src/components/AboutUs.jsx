@@ -19,7 +19,7 @@ export default function AboutUs (){
             <div className="About-info">
                 <img src={Aboutimg2} id="About-us-info-img" alt="" />
                 <div id="about-info-text">
-                    <h1>About The Brew Lab</h1>
+                    <h1>About Us</h1>
                     <p>
                     The Brew Lab Café, where passion for coffee meets creative innovation. Nestled in the heart of the city, <br/>
                     we pride ourselves on crafting exceptional coffee experiences. From expertly brewed espressos to creamy lattes,<br/>

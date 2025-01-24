@@ -7,7 +7,6 @@
 }
 
 .shopping-cart-hero{
-    background-color: #436850;
     width: 100vw;
     height: 70vh;
     display: flex;
@@ -16,9 +15,11 @@
     background-image: url('../images/coffeeBeanHero.jpg');
     background-size: cover;
     background-position: center;
-    padding: 25px;
 }
 
+#hero-text h1{
+    font-size: 40px;
+}
 
 
 .shopping-cart-container{
@@ -35,7 +36,8 @@
 
 .shopping-cart-products{
     display:flex;
-    padding: 20px;
+    padding:10px;
+    gap:20px;
 }
 
 .shopping-cart-product{
@@ -51,7 +53,7 @@
     margin-right: 20px;
     position: relative;
     transition: transform 0.3s ease-in-out;
-    max-height:100%;
+    max-height: 100%;
 }
 
 .shopping-cart-product:hover{
@@ -186,18 +188,68 @@
         color: rgb(222, 229, 236);
 }
 
-@media (max-width: 768px) {
+@media  (min-width:330px) and (max-width: 768px) {
+    .navbar {
+        font-size: 20px;
+        color: aliceblue;
+        width: 100%;
+        padding: 10px;
+      }
+      
+      .navbar > a{
+        text-decoration: none;
+        color: white;
+      }
+      .logo {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-size: 13px;
+        align-items: center;
+        font-weight: 700;
+        cursor: pointer;
+        margin-left: 35px;
+      }
+      .logo img {
+        width: 50px;
+        height: 50px;
+      }
+
+    .shopping-cart-hero{
+        height: fit-content;
+    }
+    
+
+    #shopping-image{
+        width: 100%;
+        height: 50vh;   
+        border-radius: 15px;
+    }
+
+    .shopping-cart-product{
+        max-height: 70vh;
+    }
+
     #checkout-btn{
         width: 100%;
     }
 
     #hero-text{
-        font-size: 30px;
+        font-size: 35px;
     }
-    
+    #cart-product img{
+        height: 80px;
+        max-width: 65%;
+        border-radius: 10px;
+    }
     .cart h1{
         font-size: 30px;
         padding: 15px;
+    }
+    #cart-quantity span{
+        width:30px;
+        text-align: center;
+        cursor: pointer;
     }
 
 

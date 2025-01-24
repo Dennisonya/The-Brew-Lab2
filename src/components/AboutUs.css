@@ -113,16 +113,46 @@
     box-shadow: 12px 12px 2px 1px black;
   }
 
-  @media (max-width:768px){
-
-    .aboutus-hero-content{
-      font-size: 35px;
+  @media (min-width: 330px) and (max-width:768px){
+    navbar {
+      font-size: 20px;
+      color: aliceblue;
+      width: 100%;
+      padding: 10px;
+    }
+    
+    .navbar > a{
+      text-decoration: none;
+      color: white;
+    }
+    .logo {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      font-size: 13px;
+      align-items: center;
       font-weight: 700;
+      cursor: pointer;
+      margin-left: 35px;
+    }
+    .logo img {
+      width: 50px;
+      height: 50px;
+    }
+    
+  .aboutus-hero{
+      background-image: url("../images/AboutUsHeroImg1.jpg");
+      height: fit-content;
+  }
+  
+ .aboutus-hero .aboutus-hero-content{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 70px;
   }
 
   .About-info{
-    flex-direction: column-reverse;
-
+    flex-direction: column;
   }
 
   #About-us-info-img{
@@ -144,7 +174,7 @@
 }
 
 .cafe{
-  flex-direction: column;
+  flex-direction: column-reverse;
   padding: 30px;
   font-size:15px;
 }
@@ -154,7 +184,18 @@
 }
 
 #cafe-img{
-  min-width: 80%;
+  min-width: 90%;
   max-height: 70vh;
 }  
+.section2 {
+  height:40vh;
+  justify-content: center;
+}
+.section2 .buttons{
+  padding-right: 20px;
+  max-width: fit-content;
+  justify-items: center;
+}
+
+
 }
