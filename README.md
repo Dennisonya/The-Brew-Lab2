@@ -8,3 +8,5 @@ To complement the functional aspects, I invested time in honing my **CSS skills*
 The idea for this project originated from my goal of combining creativity with technical skills to build a portfolio piece that mirrors real-world applications. From conceptualizing the layout to implementing interactive features, every aspect of this website was carefully planned and executed, allowing me to deepen my expertise in **React** and front-end development as a whole.  
 
 This project represents my ability to take an idea from inception to completion, utilizing modern tools and frameworks while continuously improving my skill set. It has been an invaluable learning experience, and I’m excited to showcase it on platforms like GitHub and LinkedIn.
+
+check out my website --> https://the-brew-lab.netlify.app/
